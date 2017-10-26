@@ -1,7 +1,7 @@
-/* Please make sure that all of your class names have your unique name or 
-initials in front of them so they don't get mixed up with other's code! 
+/* Please make sure that all of your class names have your unique name or
+initials in front of them so they don't get mixed up with other's code!
 Do a quick text search to make sure your name or initials aren't already
-claimed in this file. You may also want to prepend your CSS with your full name 
+claimed in this file. You may also want to prepend your CSS with your full name
 or github link in a comment so we know who goes where!*/
 
 
@@ -470,9 +470,9 @@ or github link in a comment so we know who goes where!*/
     height: 60px;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
-    
+
     margin-bottom: -5px;
-    
+
     left: -80px;
   }
 
@@ -506,7 +506,7 @@ or github link in a comment so we know who goes where!*/
   }
   #clara .red:before {
     background-color: #C70039;
-    color: #F27C82;    
+    color: #F27C82;
   }
   #clara .silver:before {
     background-color: #ddd;
@@ -531,7 +531,7 @@ or github link in a comment so we know who goes where!*/
     -webkit-transform: translate(-7px,25px);
     -ms-transform: translate(-7px,25px);
     transform: translate(-7px,25px);
-    
+
   }
   #clara .light:nth-child(3) {
     left: 1em;
@@ -598,13 +598,13 @@ or github link in a comment so we know who goes where!*/
   bottom: 80px;
   border-bottom-left-radius: 50% 60px;
   border-bottom-right-radius: 50% 60px;
-	
+
 }
 #yd .top{
 	bottom: 130px;
 	border-bottom-left-radius: 50% 100px;
 	border-bottom-right-radius: 50% 100px;
-	
+
 }
 #yd .name{
 	position: absolute;
@@ -614,4 +614,145 @@ or github link in a comment so we know who goes where!*/
   font-size: 50px;
 	background-color: yellow;
 	color:green;
+}
+
+#britishpandachick {
+  background: ivory;
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  position: relative;
+  display: inline-block;
+}
+
+#britishpandachick .trunk {
+  border-color: brown transparent;
+  border-style: solid;
+  border-width: 0px 10px 200px;
+  position: absolute;
+  bottom: -15px;
+  left: 45%;
+  width: 0px;
+}
+
+#britishpandachick .branch {
+  border-color: darkgreen transparent;
+  border-style: solid;
+  height: 0px;
+  position: absolute;
+  width: 0;
+  border-width: 0 100px 120px;
+  left: 17%;
+}
+
+.garland {
+  z-index: 3;
+  border-bottom: 3px dotted gold;
+  position: relative;
+  width: 160px;
+  height: 60px;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  margin-bottom: -5px;
+  left: -80px;
+}
+
+#britishpandachick .light {
+  position: absolute;
+  z-index: 10;
+}
+
+#britishpandachick .bottom {
+  bottom: 10px;
+  border-bottom-left-radius: 50% 20px;
+  border-bottom-right-radius: 50% 20px;
+}
+
+#britishpandachick .bottom .garland {
+  margin-top: 20px;
+}
+
+#britishpandachick .middle {
+  bottom: 45px;
+  border-bottom-left-radius: 50% 60px;
+  border-bottom-right-radius: 50% 60px;
+}
+
+#britishpandachick .middle .garland {
+  width: 120px;
+  left: -60px;
+  height: 36px;
+  margin-top: 30px;
+}
+
+#britishpandachick .top {
+  bottom: 90px;
+  border-bottom-left-radius: 50% 100px;
+  border-bottom-right-radius: 50% 100px;
+}
+
+#britishpandachick .star {
+  border-color: orange transparent;
+  border-style: solid;
+  border-width: 0px 25px 17px;
+  position: relative;
+  left: -23px;
+  width: 0px;
+  height: 0px;
+  -moz-transform: rotate(35deg);
+  -webkit-transform: rotate(35deg);
+  -ms-transform: rotate(35deg);
+  -o-transform: rotate(35deg);
+}
+
+#britishpandachick .star:before {
+  border-color: gold transparent;
+  border-style: solid;
+  border-width: 0px 5px 15px;
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  top: -10px;
+  left: -13px;
+  content: '';
+  -webkit-transform: rotate(-35deg);
+  -moz-transform: rotate(-35deg);
+  -ms-transform: rotate(-35deg);
+  -o-transform: rotate(-35deg);
+}
+
+#britishpandachick .star:after {
+  border-color: gold transparent;
+  border-style: solid;
+  border-width: 0px 25px 17px;
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  content: '';
+  top: 0px;
+  left: -25px;
+  -webkit-transform: rotate(-70deg);
+  -moz-transform: rotate(-70deg);
+  -ms-transform: rotate(-70deg);
+  -o-transform: rotate(-70deg);
+}
+
+#britishpandachick .top .garland {
+  width: 85px;
+  left: -40px;
+  height: 26px;
+  margin-top: 15px;
+}
+
+#britishpandachick .name {
+  position: absolute;
+  width: 300px;
+  text-align: center;
+  border: 10px #ffe766 solid;
+  font-size: 50px;
+  background-color: #ffd700;
+  color: #323232;
+  font-family: "Arial Black", Gadget, sans-serif;
 }
