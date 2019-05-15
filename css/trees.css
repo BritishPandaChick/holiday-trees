@@ -625,6 +625,8 @@ or github link in a comment so we know who goes where!*/
   display: inline-block;
 }
 
+/* Tree trunk */
+
 #britishpandachick .trunk {
   border-color: brown transparent;
   border-style: solid;
@@ -634,6 +636,8 @@ or github link in a comment so we know who goes where!*/
   left: 45%;
   width: 0px;
 }
+
+/* Tree branches Base Styles*/
 
 #britishpandachick .branch {
   border-color: darkgreen transparent;
@@ -662,6 +666,7 @@ or github link in a comment so we know who goes where!*/
   z-index: 10;
 }
 
+/* Tree bottom */
 #britishpandachick .bottom {
   bottom: 10px;
   border-bottom-left-radius: 50% 20px;
@@ -671,6 +676,8 @@ or github link in a comment so we know who goes where!*/
 #britishpandachick .bottom .garland {
   margin-top: 20px;
 }
+
+/* Tree middle */
 
 #britishpandachick .middle {
   bottom: 45px;
@@ -684,6 +691,7 @@ or github link in a comment so we know who goes where!*/
   height: 36px;
   margin-top: 30px;
 }
+/* Top of the Tree */
 
 #britishpandachick .top {
   bottom: 90px;
@@ -745,6 +753,8 @@ or github link in a comment so we know who goes where!*/
   height: 26px;
   margin-top: 15px;
 }
+
+/* Name */
 
 #britishpandachick .name {
   position: absolute;
